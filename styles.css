@@ -1,0 +1,37 @@
+body {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background:url('https://i.pinimg.com/564x/6d/bb/ec/6dbbec58d08a8c4116eace745b88a90e.jpg');
+    background-size: cover;
+}
+
+main {
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 100%;
+    padding: 50px 0;
+}
+
+.timer {
+    display: flex;
+}
+
+.box {
+    width: 25%;
+}
+
+h1 {
+    font-size: 40px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+h3 {
+    color: red;
+    font-size: 100px;
+    margin-bottom: 20px;
+}
